@@ -29,18 +29,18 @@
 
 ## Project Structure
 
-├── Source #Folder holding the source Python files 
-    ├─ backtest.py #Backtesing engine
-    ├─ strategy.py #Strategy logic and signals
-    ├─ black_scholes.py #Option pricing model
-    ├─ iv_solver.py #Implied volatility calculation
-    ├─ hedging.py #Delta-neutral hedging tools
-    ├─ data_loader.py #Loads and preprocesses market data
-    ├─ rv_forecasting.py #Realized volatility forecasting
-    ├─ microstructure.py #Market microstructure-related calculations
-├── README.md #Project documentation
-├── main.py #Entry point for running the trading system
-├── tests.py #Unit tests for components
+Source/ # Folder holding the source Python files
+├── backtest.py # Backtesting engine
+├── strategy.py # Strategy logic and signals
+├── black_scholes.py # Option pricing model
+├── iv_solver.py # Implied volatility calculation
+├── hedging.py # Delta-neutral hedging tools
+├── data_loader.py # Loads and preprocesses market data
+├── rv_forecasting.py # Realized volatility forecasting
+├── microstructure.py # Market microstructure-related calculations
+├── README.md # Project documentation
+├── main.py # Entry point for running the trading system
+└── tests.py # Unit tests for components
 
 ## Author: Areeb Arshad, Virginia Tech Sophomore
 
